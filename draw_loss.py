@@ -10,9 +10,9 @@ def load_data(filename):
     f.close()
     return pts
 
-dataset = 'spinal'
-weights_path = 'weights_'+dataset
-
+#dataset = 'spinal'
+#weights_path = 'weights_'+dataset
+weights_path = '/content/PDI-Vertebra-Landmark-Detection-master'
 ###############################################
 # Load data
 train_pts = load_data(os.path.join(weights_path, 'train_loss.txt'))
