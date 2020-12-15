@@ -28,15 +28,16 @@ def parse_args():
 
 
 
-if __name__ == '__main__':
-    args = parse_args()
-    if args.phase == 'train':
-        #is_object = train.Network(args)
-        #is_object.train_network(args)
-    elif args.phase == 'test':
+#if __name__ == '__main__':
+    #args = parse_args()
+    #if args.phase == 'train':
+    #    #is_object = train.Network(args)
+    #    #is_object.train_network(args)
+   # elif args.phase == 'test':
         #is_object = test.Network(args)
         #is_object.test(args, save=False)
-    elif args.phase == 'eval':
+    #elif args.phase == 'eval':
         #is_object = eval.Network(args)
         #is_object.eval(args, save=False)
         # is_object.eval_three_angles(args, save=False)
+#
